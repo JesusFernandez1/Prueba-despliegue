@@ -1,3 +1,4 @@
+#!/bin/bash
 #Cogemos el archivo de configuracion de los puertos que deseamos
 archivoPuerto="etc/apache2/ports.conf"
 
