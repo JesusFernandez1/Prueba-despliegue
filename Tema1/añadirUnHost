@@ -1,3 +1,4 @@
+#!/bin/bash
 #Cogemos el archivo hosts
 archivoHost="./etc/hosts"
 
