@@ -1,13 +1,15 @@
 # Despliegue de aplicaciones web
 #### Este repositorio incluira las actividades
-## Tema 0 - Introduccion
+## Tema 0 - Introduccion/Ejemplo
 | Command | Description |
 | --- | --- |
 | Ejercicio 1 | Descripcion |
 | Ejercicio 2 | Descripcion |
 
-## Tema 1 - ...
-| Command | Description |
+## Tema 1 - ACTIVIDAD 2
+| Command | Trabajando con scripts |
 | --- | --- |
-| Ejercicio 1 | Descripcion |
-| Ejercicio 2 | Descripcion |
+| 1 -  | Script que añade un puerto |
+| Ejercicio 2 | Script que añade un nombre de dominio y una ip |
+| Ejercicio 2 | Script para crear una página web |
+
