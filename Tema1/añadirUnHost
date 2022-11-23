@@ -1,6 +1,6 @@
 #!/bin/bash
 #Cogemos el archivo hosts
-archivoHost="./etc/hosts"
+archivoHost="/etc/hosts"
 
 echo "Introduce un hosts para añadir: "
 #read del host para añadir
