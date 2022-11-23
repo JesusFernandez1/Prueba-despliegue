@@ -11,7 +11,7 @@ echo "Introduce la IP: "
 read nuevaIP
 
 #Buscar si el host ya existe 
-if grep -q -w "$nuevoHost" "$archivoHost" 
+if [[grep -q -w "$nuevoHost" "$archivoHost"]] 
 then #Si existe
         echo "Ese Host ya existe" 
 else #No existe
