@@ -14,5 +14,5 @@ then #Si existe
         echo "Puerto existe"
 else #No existe
         echo "$cadenaPuerto" >> "$archivoPuerto"
-        echo "Se añadio el puerto $puerto."
+        echo "Puerto añadido: $puerto."
 fi
