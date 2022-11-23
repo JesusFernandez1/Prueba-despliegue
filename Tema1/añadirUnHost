@@ -16,5 +16,5 @@ then #Si existe
         echo "Ese Host ya existe" 
 else #No existe
         echo "$nuevaIP $nuevoHost" >> "$archivoHost" 
-        echo "Se ha añadido el host a la escucha" 
+        echo "Tarea realizada con exito" 
 fi
