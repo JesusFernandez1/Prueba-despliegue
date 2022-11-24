@@ -8,7 +8,7 @@ read puerto
 #introducimos en el archivo de configuracion
 cadenaPuerto="Listen $puerto"
 #Buscar si ya existe
-if grep -Fxq "$cadenaPuerto" "$archivoPuerto"
+if [[grep -Fxq "$cadenaPuerto" "$archivoPuerto"]]
 
 then #Si existe
         echo "Puerto existe"
