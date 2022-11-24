@@ -1,14 +1,14 @@
 #!/bin/bash
 #Cogemos el archivo de configuracion de los puertos que deseamos
-archivoPuerto="etc/apache2/ports.conf"
+arcPuerto="etc/apache2/ports.conf"
 
 echo "Introduce el puerto que quieras añadir: "
 #read del puerto a añadir
 read puerto
 #introducimos en el archivo de configuracion
-cadenaPuerto="Listen $puerto"
+cadPuerto="Listen $puerto"
 #Buscar si ya existe
-if [[grep -Fxq "$cadenaPuerto" "$archivoPuerto"]]
+if [[grep -Fxq "$cadPuerto" "$arcPuerto"]]
 
 then #Si existe
         echo "Puerto existe"
